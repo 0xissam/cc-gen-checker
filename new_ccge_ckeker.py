@@ -31,24 +31,24 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.label.setFont(font)
         self.label.setStyleSheet("font-family: \'Heebo\', sans-serif;\n"
-"font-size: 2.9375rem;\n"
-"font-weight: 600;\n"
-"letter-spacing: 0.075rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #29ff74;\n"
-"border-radius: 1.0625rem;\n"
-"-webkit-border-radius: 1.0625rem;\n"
-"-moz-border-radius: 1.0625rem;\n"
-"padding: 1.0625rem 1.125rem;\n"
-"border-style: solid;\n"
-"border-width: 0.375rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;\n"
-"")
+        "font-size: 2.9375rem;\n"
+        "font-weight: 600;\n"
+        "letter-spacing: 0.075rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #29ff74;\n"
+        "border-radius: 1.0625rem;\n"
+        "-webkit-border-radius: 1.0625rem;\n"
+        "-moz-border-radius: 1.0625rem;\n"
+        "padding: 1.0625rem 1.125rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.375rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;\n"
+        "")
         self.label.setAlignment(QtCore.Qt.AlignCenter)
         self.label.setIndent(0)
         self.label.setObjectName("label")
@@ -62,24 +62,24 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.label_6.setFont(font)
         self.label_6.setStyleSheet("font-family: \'Heebo\', sans-serif;\n"
-"font-size: 2.9375rem;\n"
-"font-weight: 600;\n"
-"letter-spacing: 0.075rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #29ff74;\n"
-"border-radius: 1.0625rem;\n"
-"-webkit-border-radius: 1.0625rem;\n"
-"-moz-border-radius: 1.0625rem;\n"
-"padding: 1.0625rem 1.125rem;\n"
-"border-style: solid;\n"
-"border-width: 0.375rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;\n"
-"")
+        "font-size: 2.9375rem;\n"
+        "font-weight: 600;\n"
+        "letter-spacing: 0.075rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #29ff74;\n"
+        "border-radius: 1.0625rem;\n"
+        "-webkit-border-radius: 1.0625rem;\n"
+        "-moz-border-radius: 1.0625rem;\n"
+        "padding: 1.0625rem 1.125rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.375rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;\n"
+        "")
         self.label_6.setAlignment(QtCore.Qt.AlignCenter)
         self.label_6.setObjectName("label_6")
         self.verticalLayout.addWidget(self.label_6)
@@ -94,23 +94,23 @@ class Ui_MainWindow(object):
         font.setWeight(87)
         self.label_2.setFont(font)
         self.label_2.setStyleSheet("font-family: \'Poppins\', sans-serif;\n"
-"font-size: 0.9375rem;\n"
-"font-weight: 700;\n"
-"letter-spacing: 0.045rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #65f53d;\n"
-"border-radius: 0.6875rem;\n"
-"-webkit-border-radius: 0.6875rem;\n"
-"-moz-border-radius: 0.6875rem;\n"
-"padding: 0.4375rem 1.25rem;\n"
-"border-style: solid;\n"
-"border-width: 0.1875rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;")
+        "font-size: 0.9375rem;\n"
+        "font-weight: 700;\n"
+        "letter-spacing: 0.045rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #65f53d;\n"
+        "border-radius: 0.6875rem;\n"
+        "-webkit-border-radius: 0.6875rem;\n"
+        "-moz-border-radius: 0.6875rem;\n"
+        "padding: 0.4375rem 1.25rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.1875rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;")
         self.label_2.setLineWidth(2)
         self.label_2.setAlignment(QtCore.Qt.AlignCenter)
         self.label_2.setWordWrap(False)
@@ -125,15 +125,15 @@ class Ui_MainWindow(object):
         self.lineEdit_bin.setSizePolicy(sizePolicy)
         self.lineEdit_bin.setMaximumSize(QtCore.QSize(16777207, 16777215))
         self.lineEdit_bin.setStyleSheet(" padding: 3px;\n"
-"     font-size: 16px;\n"
-"     border-width: 2px;\n"
-"     border-color: #cccccc;\n"
-"     background-color: #ffffff;\n"
-"     color: #000000;\n"
-"     border-style: groove;\n"
-"     border-radius: 27px;\n"
-"     box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
-"     text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
+        "font-size: 16px;\n"
+        "border-width: 2px;\n"
+        "border-color: #cccccc;\n"
+        "background-color: #ffffff;\n"
+        "color: #000000;\n"
+        "border-style: groove;\n"
+        "border-radius: 27px;\n"
+        "box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
+        "text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
         self.lineEdit_bin.setInputMask("")
         self.lineEdit_bin.setText("")
         self.lineEdit_bin.setEchoMode(QtWidgets.QLineEdit.Normal)
@@ -148,23 +148,23 @@ class Ui_MainWindow(object):
         self.horizontalLayout_2.setObjectName("horizontalLayout_2")
         self.label_3 = QtWidgets.QLabel(self.centralwidget)
         self.label_3.setStyleSheet("font-family: \'Poppins\', sans-serif;\n"
-"font-size: 0.9375rem;\n"
-"font-weight: 700;\n"
-"letter-spacing: 0.045rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #65f53d;\n"
-"border-radius: 0.6875rem;\n"
-"-webkit-border-radius: 0.6875rem;\n"
-"-moz-border-radius: 0.6875rem;\n"
-"padding: 0.4375rem 1.25rem;\n"
-"border-style: solid;\n"
-"border-width: 0.1875rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;")
+        "font-size: 0.9375rem;\n"
+        "font-weight: 700;\n"
+        "letter-spacing: 0.045rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #65f53d;\n"
+        "border-radius: 0.6875rem;\n"
+        "-webkit-border-radius: 0.6875rem;\n"
+        "-moz-border-radius: 0.6875rem;\n"
+        "padding: 0.4375rem 1.25rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.1875rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;")
         self.label_3.setAlignment(QtCore.Qt.AlignCenter)
         self.label_3.setIndent(10)
         self.label_3.setObjectName("label_3")
@@ -176,15 +176,15 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.lineEdit_month.sizePolicy().hasHeightForWidth())
         self.lineEdit_month.setSizePolicy(sizePolicy)
         self.lineEdit_month.setStyleSheet(" padding: 3px;\n"
-"     font-size: 16px;\n"
-"     border-width: 2px;\n"
-"     border-color: #cccccc;\n"
-"     background-color: #ffffff;\n"
-"     color: #000000;\n"
-"     border-style: groove;\n"
-"     border-radius: 27px;\n"
-"     box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
-"     text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
+        "font-size: 16px;\n"
+        "border-width: 2px;\n"
+        "border-color: #cccccc;\n"
+        "background-color: #ffffff;\n"
+        "color: #000000;\n"
+        "border-style: groove;\n"
+        "border-radius: 27px;\n"
+        "box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
+        "text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
         self.lineEdit_month.setInputMask("")
         self.lineEdit_month.setObjectName("lineEdit_month")
         self.horizontalLayout_2.addWidget(self.lineEdit_month)
@@ -193,23 +193,23 @@ class Ui_MainWindow(object):
         self.horizontalLayout_3.setObjectName("horizontalLayout_3")
         self.label_4 = QtWidgets.QLabel(self.centralwidget)
         self.label_4.setStyleSheet("font-family: \'Poppins\', sans-serif;\n"
-"font-size: 0.9375rem;\n"
-"font-weight: 700;\n"
-"letter-spacing: 0.045rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #65f53d;\n"
-"border-radius: 0.6875rem;\n"
-"-webkit-border-radius: 0.6875rem;\n"
-"-moz-border-radius: 0.6875rem;\n"
-"padding: 0.4375rem 1.25rem;\n"
-"border-style: solid;\n"
-"border-width: 0.1875rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;")
+        "font-size: 0.9375rem;\n"
+        "font-weight: 700;\n"
+        "letter-spacing: 0.045rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #65f53d;\n"
+        "border-radius: 0.6875rem;\n"
+        "-webkit-border-radius: 0.6875rem;\n"
+        "-moz-border-radius: 0.6875rem;\n"
+        "padding: 0.4375rem 1.25rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.1875rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;")
         self.label_4.setAlignment(QtCore.Qt.AlignCenter)
         self.label_4.setObjectName("label_4")
         self.horizontalLayout_3.addWidget(self.label_4)
@@ -220,15 +220,15 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.lineEdit_year.sizePolicy().hasHeightForWidth())
         self.lineEdit_year.setSizePolicy(sizePolicy)
         self.lineEdit_year.setStyleSheet(" padding: 3px;\n"
-"     font-size: 16px;\n"
-"     border-width: 2px;\n"
-"     border-color: #cccccc;\n"
-"     background-color: #ffffff;\n"
-"     color: #000000;\n"
-"     border-style: groove;\n"
-"     border-radius: 27px;\n"
-"     box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
-"     text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
+        "font-size: 16px;\n"
+        "border-width: 2px;\n"
+        "border-color: #cccccc;\n"
+        "background-color: #ffffff;\n"
+        "color: #000000;\n"
+        "border-style: groove;\n"
+        "border-radius: 27px;\n"
+        "box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
+        "text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
         self.lineEdit_year.setInputMask("")
         self.lineEdit_year.setObjectName("lineEdit_year")
         self.horizontalLayout_3.addWidget(self.lineEdit_year)
@@ -237,23 +237,23 @@ class Ui_MainWindow(object):
         self.horizontalLayout_6.setObjectName("horizontalLayout_6")
         self.label_5 = QtWidgets.QLabel(self.centralwidget)
         self.label_5.setStyleSheet("font-family: \'Poppins\', sans-serif;\n"
-"font-size: 0.9375rem;\n"
-"font-weight: 700;\n"
-"letter-spacing: 0.045rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #65f53d;\n"
-"border-radius: 0.6875rem;\n"
-"-webkit-border-radius: 0.6875rem;\n"
-"-moz-border-radius: 0.6875rem;\n"
-"padding: 0.4375rem 1.25rem;\n"
-"border-style: solid;\n"
-"border-width: 0.1875rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;")
+        "font-size: 0.9375rem;\n"
+        "font-weight: 700;\n"
+        "letter-spacing: 0.045rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #65f53d;\n"
+        "border-radius: 0.6875rem;\n"
+        "-webkit-border-radius: 0.6875rem;\n"
+        "-moz-border-radius: 0.6875rem;\n"
+        "padding: 0.4375rem 1.25rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.1875rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;")
         self.label_5.setAlignment(QtCore.Qt.AlignCenter)
         self.label_5.setIndent(5)
         self.label_5.setObjectName("label_5")
@@ -265,15 +265,15 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.lineEdit_amount.sizePolicy().hasHeightForWidth())
         self.lineEdit_amount.setSizePolicy(sizePolicy)
         self.lineEdit_amount.setStyleSheet(" padding: 3px;\n"
-"     font-size: 16px;\n"
-"     border-width: 2px;\n"
-"     border-color: #cccccc;\n"
-"     background-color: #ffffff;\n"
-"     color: #000000;\n"
-"     border-style: groove;\n"
-"     border-radius: 27px;\n"
-"     box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
-"     text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
+        "font-size: 16px;\n"
+        "border-width: 2px;\n"
+        "border-color: #cccccc;\n"
+        "background-color: #ffffff;\n"
+        "color: #000000;\n"
+        "border-style: groove;\n"
+        "border-radius: 27px;\n"
+        "box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
+        "text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
         self.lineEdit_amount.setInputMask("")
         self.lineEdit_amount.setAlignment(QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft|QtCore.Qt.AlignVCenter)
         self.lineEdit_amount.setObjectName("lineEdit_amount")
@@ -283,46 +283,46 @@ class Ui_MainWindow(object):
         self.horizontalLayout_4.setObjectName("horizontalLayout_4")
         self.label_8 = QtWidgets.QLabel(self.centralwidget)
         self.label_8.setStyleSheet("font-family: \'Poppins\', sans-serif;\n"
-"font-size: 0.9375rem;\n"
-"font-weight: 700;\n"
-"letter-spacing: 0.045rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #65f53d;\n"
-"border-radius: 0.6875rem;\n"
-"-webkit-border-radius: 0.6875rem;\n"
-"-moz-border-radius: 0.6875rem;\n"
-"padding: 0.4375rem 1.25rem;\n"
-"border-style: solid;\n"
-"border-width: 0.1875rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;")
+        "font-size: 0.9375rem;\n"
+        "font-weight: 700;\n"
+        "letter-spacing: 0.045rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #65f53d;\n"
+        "border-radius: 0.6875rem;\n"
+        "-webkit-border-radius: 0.6875rem;\n"
+        "-moz-border-radius: 0.6875rem;\n"
+        "padding: 0.4375rem 1.25rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.1875rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;")
         self.label_8.setAlignment(QtCore.Qt.AlignCenter)
         self.label_8.setIndent(4)
         self.label_8.setObjectName("label_8")
         self.horizontalLayout_4.addWidget(self.label_8)
         self.label_7 = QtWidgets.QLabel(self.centralwidget)
         self.label_7.setStyleSheet("font-family: \'Poppins\', sans-serif;\n"
-"font-size: 0.9375rem;\n"
-"font-weight: 700;\n"
-"letter-spacing: 0.045rem;\n"
-"font-style: normal;\n"
-"text-transform: uppercase;\n"
-"color: #000000;\n"
-"background-color: #65f53d;\n"
-"border-radius: 0.6875rem;\n"
-"-webkit-border-radius: 0.6875rem;\n"
-"-moz-border-radius: 0.6875rem;\n"
-"padding: 0.4375rem 1.25rem;\n"
-"border-style: solid;\n"
-"border-width: 0.1875rem;\n"
-"border-color: #000000;\n"
-"-webkit-box-shadow: none;\n"
-"-moz-box-shadow: none;\n"
-"-box-shadow: none;")
+        "font-size: 0.9375rem;\n"
+        "font-weight: 700;\n"
+        "letter-spacing: 0.045rem;\n"
+        "font-style: normal;\n"
+        "text-transform: uppercase;\n"
+        "color: #000000;\n"
+        "background-color: #65f53d;\n"
+        "border-radius: 0.6875rem;\n"
+        "-webkit-border-radius: 0.6875rem;\n"
+        "-moz-border-radius: 0.6875rem;\n"
+        "padding: 0.4375rem 1.25rem;\n"
+        "border-style: solid;\n"
+        "border-width: 0.1875rem;\n"
+        "border-color: #000000;\n"
+        "-webkit-box-shadow: none;\n"
+        "-moz-box-shadow: none;\n"
+        "-box-shadow: none;")
         self.label_7.setAlignment(QtCore.Qt.AlignCenter)
         self.label_7.setObjectName("label_7")
         self.horizontalLayout_4.addWidget(self.label_7)
@@ -331,50 +331,50 @@ class Ui_MainWindow(object):
         self.horizontalLayout_9.setObjectName("horizontalLayout_9")
         self.textEdit_generated = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit_generated.setStyleSheet("padding: 3px;\n"
-"font-size: 16px;\n"
-"border-width: 2px;\n"
-"border-color: #29ff74;\n"
-"background-color: #000000;\n"
-"color: #ffffff;\n"
-"border-style: groove;\n"
-"border-radius: 0px;\n"
-"box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
-"text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
+        "font-size: 16px;\n"
+        "border-width: 2px;\n"
+        "border-color: #29ff74;\n"
+        "background-color: #000000;\n"
+        "color: #ffffff;\n"
+        "border-style: groove;\n"
+        "border-radius: 0px;\n"
+        "box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
+        "text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
         self.textEdit_generated.setObjectName("textEdit_generated")
         self.horizontalLayout_9.addWidget(self.textEdit_generated)
         self.textEdit = QtWidgets.QTextEdit(self.centralwidget)
         self.textEdit.setStyleSheet("padding: 3px;\n"
-"font-size: 16px;\n"
-"border-width: 2px;\n"
-"border-color: #29ff74;\n"
-"background-color: #000000;\n"
-"color: #ffffff;\n"
-"border-style: groove;\n"
-"border-radius: 0px;\n"
-"box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
-"text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
+        "font-size: 16px;\n"
+        "border-width: 2px;\n"
+        "border-color: #29ff74;\n"
+        "background-color: #000000;\n"
+        "color: #ffffff;\n"
+        "border-style: groove;\n"
+        "border-radius: 0px;\n"
+        "box-shadow: 0px 0px 5px rgba(66,66,66,.75);\n"
+        "text-shadow: 0px 0px 5px rgba(66,66,66,.75);")
         self.textEdit.setObjectName("textEdit")
         self.horizontalLayout_9.addWidget(self.textEdit)
         self.verticalLayout.addLayout(self.horizontalLayout_9)
         self.pushButton_generate = QtWidgets.QPushButton(self.centralwidget)
         self.pushButton_generate.clicked.connect(self.generate)
         self.pushButton_generate.setStyleSheet(".QPushButton {\n"
-"   background-color: #65f53d;\n"
-"    border-style: outset;\n"
-"    border-width: 0px;\n"
-"    border-radius: 0px;\n"
-"    color: #000000;\n"
-"    border-color: beige;\n"
-"    font: bold 14px;\n"
-"    min-width: 10em;\n"
-"    padding: 6px;\n"
-"}\n"
-"\n"
-".QPushButton:hover {\n"
-"  transition: 1s ease-in-out;\n"
-"  background: #5cd65c;\n"
-"}\n"
-"")
+        "background-color: #65f53d;\n"
+        "border-style: outset;\n"
+        "border-width: 0px;\n"
+        "border-radius: 0px;\n"
+        "color: #000000;\n"
+        "border-color: beige;\n"
+        "font: bold 14px;\n"
+        "min-width: 10em;\n"
+        "padding: 6px;\n"
+        "}\n"
+        "\n"
+        ".QPushButton:hover {\n"
+        "transition: 1s ease-in-out;\n"
+        "background: #5cd65c;\n"
+        "}\n"
+        "")
         self.pushButton_generate.setObjectName("pushButton_generate")
         self.verticalLayout.addWidget(self.pushButton_generate)
         self.verticalLayout_2.addLayout(self.verticalLayout)

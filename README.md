@@ -9,6 +9,7 @@ cc-gen-checker is program that genereat cc numbers, expired day, expired month, 
 * Enter the bin code.
 * the expiration month and year are random if let empty
 * add the amount of cc to generate.
+
 ![1](https://github.com/0xissam/cc-gen-checker/assets/89690781/20595754-b85e-4d4c-a079-7c65c32e4217)
 * and click generate
 * after checking the generated cc, we have the green ones are the ones alive

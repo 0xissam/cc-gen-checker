@@ -567,74 +567,7 @@ class Ui_MainWindow(object):
                           "")
 
         show = msg.exec_()
-    """
-    def checke(self):
-        cookies = {
-            '_ga': 'GA1.2.806246814.1663673087',
-            '_gid': 'GA1.2.982704913.1663673087',
-        }
-
-        headers = {
-            'authority': 'mmotools.net',
-            'accept': '*/*',
-            'accept-language': 'en-US,en;q=0.9,fr;q=0.8,fr-FR;q=0.7,en-GB;q=0.6',
-            'content-type': 'application/x-www-form-urlencoded; charset=UTF-8',
-            # Requests sorts cookies= alphabetically
-            # 'cookie': '_ga=GA1.2.806246814.1663673087; _gid=GA1.2.982704913.1663673087',
-            'origin': 'https://mmotools.net',
-            'referer': 'https://mmotools.net/livedie0x9853c3367064dffcff2311ab5ae4f1e97cfce04f7210f6cd5f5b7b80ba636d15/',
-            'sec-ch-ua': '"Microsoft Edge";v="105", " Not;A Brand";v="99", "Chromium";v="105"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Windows"',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'same-origin',
-            'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36 Edg/105.0.1343.42',
-            'x-requested-with': 'XMLHttpRequest',
-        }
-
-        live_list = []
-        die_list = []
-        unknown_list = []
-
-        for i in cc_card_list:
-            data = {
-                'data': f'{i}',
-            }
-
-            response = requests.post(
-                'https://mmotools.net/livedie0x9853c3367064dffcff2311ab5ae4f1e97cfce04f7210f6cd5f5b7b80ba636d15/api.php',
-                cookies=cookies,
-                headers=headers, data=data)
-
-            if 'Live' in response.text:
-                live_list.append(i)
-            elif 'Die' in response.text:
-                die_list.append(i)
-            elif 'Unknown' in response.text:
-                unknown_list.append(i)
-
-        # self.textEdit.setText('')
-        live_list = [elem.replace('|', '') for elem in live_list]
-
-        for i in live_list:
-            greenColor = QColor(0, 255, 0)
-            self.textEdit.setTextColor(greenColor)
-            self.textEdit.insertPlainText(f'[    Live    ]  {int(i)}\n')
-            self.textEdit.repaint()
-        for i in die_list:
-            redColor = QColor(255, 0, 0)
-            self.textEdit.setTextColor(redColor)
-            self.textEdit.insertPlainText(f'[     Die    ]  {i}\n')
-            self.textEdit.repaint()
-        for i in unknown_list:
-            yellowColor = QColor(255, 255, 0)
-            self.textEdit.setTextColor(yellowColor)
-            self.textEdit.insertPlainText(f'[Unknown]  {i}\n')
-            self.textEdit.repaint()
-
-        return
-    """
+  
     def generate(self):
         # clear output befor generaiting
         cc_card_list.clear()

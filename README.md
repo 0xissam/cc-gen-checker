@@ -10,12 +10,12 @@ CC-Gen-Checker is program that genereat cc numbers, expired day, expired month, 
 * The expiration month and year are random if let empty
 * Add the amount of cc to generate.
 
-![1](https://github.com/0xissam/cc-gen-checker/assets/89690781/20595754-b85e-4d4c-a079-7c65c32e4217)
+![1](https://github.com/0xissam/cc-gen-checker/assets/89690781/a541c8c6-e293-4af2-867c-6d43134eb23f)
 
 * And click generate
 * After checking the generated cc, we have the green ones are the ones alive
 
-![2](https://github.com/0xissam/cc-gen-checker/assets/89690781/791681fd-1e19-475e-a964-f197a8bef837)
+![2](https://github.com/0xissam/cc-gen-checker/assets/89690781/897469fd-acb2-4f52-bb01-14c483b31d47)
 
 * And finally click clear to clear all the input fields to try again
 ## Disclaimer

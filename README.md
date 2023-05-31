@@ -1,6 +1,6 @@
 # CC-Gen-Checker
 ## Description
-CC-Gen-Checker is program that genereat cc numbers, expired day, expired month, and ccv to a given bin code
+CC-Gen-Checker is program that genereat cc numbers, expired day, expired month, and cvv to a given bin code
 ## How to install 
 * Download the released setup executable from the provided source.
 * Run the setup executable to install the program on your system. Follow the installation prompts and select the desired installation location.
